@@ -2,7 +2,7 @@
 name = "my-app"
 version = "0.1.0"
 description = ""
-authors = ["Yu Li <ylilarry@gmail.com>"]
+authors = ["Yu Li <github@yuli.se>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
