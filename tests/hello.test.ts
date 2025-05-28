@@ -1,5 +1,5 @@
-describe("hello", () => {
-  it("world", () => {
-    expect("hello").toBe("hello");
+describe('hello', () => {
+  it('world', () => {
+    expect('hello').toBe('hello');
   });
 });
