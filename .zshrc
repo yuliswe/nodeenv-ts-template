@@ -7,9 +7,8 @@ If you are setting up the repo for the first time, following these steps:
 
 1. Make sure your ~/.zshrc file has the following lines:
 
-    if [ -f ./.zshrc ] && [ \$(pwd) != ~ ]; then
-        source ./.zshrc
-    fi
+    # Source .zshrc from current directory if it exists
+    [ "$PWD" != "$HOME" ] && [ -f "$PWD/.zshrc" ] && source "$PWD/.zshrc"
 
 2. Run the following commands: (You only need to do this once.)
 

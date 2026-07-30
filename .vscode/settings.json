@@ -7,10 +7,7 @@
     },
     "zsh": {
       "path": "zsh",
-      "args": ["-l"],
-      "env": {
-        "ZDOTDIR": "${workspaceFolder}"
-      }
+      "args": ["-l"]
     },
     "fish": {
       "path": "fish",
