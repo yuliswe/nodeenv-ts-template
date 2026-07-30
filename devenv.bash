@@ -5,7 +5,7 @@ VIRTUAL_ENV_DISABLE_PROMPT=1
 NODE_VIRTUAL_ENV_DISABLE_PROMPT=1
 source "$WS_DIR/.nodevenv/bin/activate"
 
-NPM_BIN="$(npx -y npm@8 bin)"
+NPM_BIN="$WS_DIR/node_modules/.bin"
 
 if [ -z "$PROJ_VIRTUAL_ENV_DISABLE_PROMPT" ] ; then
     _OLD_NODE_VIRTUAL_PS1="$PS1"
