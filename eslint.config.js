@@ -17,7 +17,8 @@ const __dirname = dirname(__filename);
 // Import local rules
 const localRules = (await import('./eslint-local-rules.cjs')).default;
 
-export default [
+/** @type {import('eslint').Linter.Config[]} */
+const config = [
   // Base configuration for all files
   {
     ignores: [
@@ -400,3 +401,5 @@ export default [
     },
   },
 ];
+
+export default config;
